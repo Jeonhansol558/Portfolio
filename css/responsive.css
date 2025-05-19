@@ -1,0 +1,895 @@
+@charset "utf-8";
+
+@media screen and (max-width : 1440px) {
+    .headerbg {
+        height: 75vh;
+    }
+
+    .line {
+        width: 95%;
+        height: 360px;
+        transform: translateY(30%);
+    }
+
+    h1 {
+        top: 32%;
+    }
+
+    .boat {
+        width: 5%;
+    }
+
+    @keyframes boat {
+        0% {
+            left: 50%;
+            top: 15%;
+        }
+
+        49% {
+            transform: rotateY(0deg);
+        }
+
+        50% {
+            left: 75%;
+            top: 15%;
+            transform: rotateY(180deg);
+        }
+
+        99% {
+            transform: rotateY(180deg);
+        }
+
+        100% {
+            left: 50%;
+            top: 15%;
+        }
+
+    }
+
+    .headerbg nav ul {
+        right: 5%;
+
+    }
+
+    .profile-text {
+        width: 35%;
+    }
+
+    .content video {
+        width: 60%;
+        height: 80%;
+        margin-left: 5%;
+        margin-top: 4.5%;
+    }
+
+    .contentimg {
+        margin-left: 8%;
+    }
+
+    .contentimg p {
+        font-size: 2.5rem;
+    }
+
+    .motion {
+        width: 80%;
+    }
+
+    .contentinfo {
+        width: 60%;
+        margin-top: 30%;
+    }
+
+    .contribution {
+        width: 150%;
+        margin-top: 5%;
+    }
+
+    .concept {
+        width: 90%;
+        margin-top: 5%;
+    }
+
+    .content {
+        height: 65vh;
+    }
+
+    footer .footerbg .footertext {
+        margin-left: 0;
+        margin-top: -10%;
+    }
+
+    .footerbg {
+        height: 85vh;
+    }
+
+}
+
+@media screen and (max-width : 1024px) {
+    .line {
+        height: 47%;
+        transform: translateY(38%);
+    }
+
+    .headerbg {
+        height: 59vh;
+    }
+
+    h1 {
+        top: 25%;
+    }
+
+    @keyframes boat {
+        0% {
+            left: 50%;
+            top: 13%;
+        }
+
+        49% {
+            transform: rotateY(0deg);
+        }
+
+        50% {
+            left: 75%;
+            top: 13%;
+            transform: rotateY(180deg);
+        }
+
+        99% {
+            transform: rotateY(180deg);
+        }
+
+        100% {
+            left: 50%;
+            top: 13%;
+        }
+
+    }
+
+    .profile {
+        width: 40%;
+    }
+
+    .arrow {
+        width: 50%;
+        top: -50%;
+    }
+
+    .bigname {
+        width: 50%;
+    }
+
+    .nameunderline {
+        width: 120%;
+    }
+
+    .arrow2 {
+        width: 45%;
+        left: -50%;
+        top: 0;
+    }
+
+    .profile-text {
+        width: 44%;
+    }
+
+    .skills {
+        width: 70%;
+    }
+
+    .profile-text p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    .profile-text .name {
+        font-size: 1.5rem;
+        line-height: 2.3rem;
+    }
+
+    .info {
+        width: 30%;
+        margin-bottom: 1rem;
+    }
+
+    .education {
+        width: 60%;
+        margin-bottom: 0.8rem;
+    }
+
+    .profile-text {
+        margin-top: 3.5rem;
+    }
+
+    .contents-name {
+        width: 35%;
+    }
+
+    .contents ul .content-title::after {
+        left: 30%;
+    }
+
+    .content-title img {
+        width: 15%;
+    }
+
+    .footerbg {
+        height: 62vh;
+    }
+
+    .footergrid {
+        height: 50%;
+        transform: translateY(55%);
+    }
+
+    .thankyou {
+        transform: translateY(-20%);
+    }
+
+    .footertext {
+        transform: translate(-5%, -155%);
+    }
+
+    .footertext p {
+        font-size: .8rem;
+    }
+
+    .headerbg nav ul {
+        right: 3%;
+    }
+
+    .content video {
+        width: 65%;
+        height: 70%;
+        margin-left: 5%;
+        margin-top: 8%;
+    }
+
+    .contentimg {
+        margin-left: 10%;
+    }
+
+    .contentimg p {
+        font-size: 2rem;
+        margin-top: -.5rem;
+    }
+
+    .motion {
+        width: 70%;
+    }
+
+    .contentinfo {
+        width: 50%;
+        margin-top: 30%;
+    }
+
+    .contribution {
+        width: 140%;
+        margin-top: 5%;
+    }
+
+    .concept {
+        width: 80%;
+        margin-top: 5%;
+    }
+
+    .content {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .line {
+        height: 54%;
+        transform: translateY(23%);
+    }
+
+    @keyframes boat {
+        0% {
+            left: 50%;
+            top: 5%;
+        }
+
+        49% {
+            transform: rotateY(0deg);
+        }
+
+        50% {
+            left: 75%;
+            top: 5%;
+            transform: rotateY(180deg);
+        }
+
+        99% {
+            transform: rotateY(180deg);
+        }
+
+        100% {
+            left: 50%;
+            top: 5%;
+        }
+
+    }
+
+    h1 {
+        top: 16%;
+    }
+
+    .headerbg {
+        height: 38vh;
+    }
+
+    .nameunderline {
+        top: -20%;
+    }
+
+    .profilewrap {
+        margin-top: 0;
+        display: block;
+    }
+
+    .profile {
+        margin: -10% auto;
+    }
+
+    .profile-text {
+        margin: 0 auto;
+    }
+
+    .use-skills {
+        width: 28%;
+    }
+
+    .edu {
+        width: 120%;
+    }
+
+    .content-circle {
+        width: 175%;
+        top: -65%;
+    }
+
+    .content-title img {
+        width: 18%;
+    }
+
+    .content-title {
+        padding-left: 60px;
+    }
+
+    .content-title.no1::after {
+        font-size: 1.8rem;
+        top: 38%;
+    }
+
+    .content-title.no2::after {
+        font-size: 1.8rem;
+        top: 38%;
+    }
+
+    .content-title.no3::after {
+        font-size: 1.8rem;
+        top: 38%;
+    }
+
+    .content-title.last::after {
+        font-size: 1.8rem;
+        top: 38%;
+    }
+
+    .footerbg {
+        height: 48vh;
+    }
+
+    .thankyou {
+        padding: 0;
+        margin: 0;
+        transform: translate(45%, -15%);
+        width: 50%;
+    }
+
+    .footertext p {
+        font-size: .6rem;
+    }
+
+    .footertext {
+        transform: translate(-5%, -70%);
+    }
+
+    .copyright {
+        height: 40px;
+    }
+
+    .copyright p {
+        line-height: 40px;
+        font-size: .4rem;
+    }
+
+    .content-title.active {
+        background-position: -25px, 0;
+        transition: all 0s;
+    }
+
+    .content-title:hover {
+        background-position: -25px, 0;
+        transition: all 0s;
+    }
+
+    .content {
+        display: block;
+    }
+
+    .content video {
+        width: 90%;
+        height: 35%;
+        margin-top: 20px;
+
+    }
+
+    .content {
+        height: 100vh;
+
+    }
+
+    .motion {
+        width: 25%;
+        transform: translateX(150%);
+    }
+
+    .contentinfo {
+        width: 15%;
+        margin-top: 10%;
+        margin-left: 5%;
+        transform: translateX(250%);
+    }
+
+    .contentimg .contribution {
+        width: 45%;
+        margin-top: 5%;
+        margin-left: -10%;
+        transform: translateX(85%);
+    }
+
+    .concept {
+        width: 30%;
+        margin-top: 5%;
+        margin-left: -3%;
+        transform: translateX(130%);
+    }
+
+    .content .contentimg {
+        margin-top: 24px;
+        margin-left: 0;
+        margin: 0 auto;
+
+
+    }
+
+    .contentimg p {
+        margin-top: 8px;
+        line-height: 30px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+
+}
+
+@media screen and (max-width : 425px) {
+    
+    .headerbg {
+        height: 25vh;
+    }
+
+    .line {
+        height: 43%;
+        transform: translateY(50%);
+    }
+
+    @keyframes boat {
+        0% {
+            left: 50%;
+            top: 3%;
+        }
+
+        49% {
+            transform: rotateY(0deg);
+        }
+
+        50% {
+            left: 75%;
+            top: 3%;
+            transform: rotateY(180deg);
+        }
+
+        99% {
+            transform: rotateY(180deg);
+        }
+
+        100% {
+            left: 50%;
+            top: 3%;
+        }
+
+    }
+
+    h1 {
+        top: 11%;
+    }
+
+    .bigname {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .nameunderline {
+        left: -10%;
+        top: -30%;
+    }
+
+    .arrow {
+        top: -26%;
+    }
+
+    .arrow2 {
+        top: 20%;
+    }
+
+    .profile {
+        margin: -60% auto;
+        margin-bottom: 0;
+    }
+
+    .profile-text {
+        margin-top: -50%;
+        text-align: center;
+        width: 10px;
+     
+    }
+
+    .info {
+        width: 20%;
+        margin: 10px auto;
+        margin-bottom: 0;
+    }
+
+    span {
+
+        font-size: 1rem;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .name {
+        font-size: 1.2rem;
+    }
+
+    .education {
+        width: 40%;
+        margin: 10px auto;
+        margin-bottom: 0;
+    }
+
+    .edu {
+        width: 100%;
+    }
+
+    .arrow3 {
+        width: 40%;
+        top: -25%;
+    }
+
+    .resume-grid {
+        height: 100vh;
+    }
+
+    .use-skills {
+        width: 35%;
+    }
+
+    .skillwrap {
+        height: 10%;
+    }
+
+    .contents-name {
+        width: 30%;
+        height: 70px;
+    }
+
+    .content-circle {
+        top: -230%;
+    }
+
+    .content-title {
+        margin: 0 30px;
+    }
+
+    .content-title.last {
+        margin: 0 30px;
+    }
+
+    .content-title img {
+        width: 20%;
+        transform: translateY(-50%);
+
+    }
+
+    .content-title.active {
+        background-size: 80px 80px;
+    }
+
+    .content-title:hover {
+        background-size: 80px 80px;
+    }
+
+    .content-title {
+        padding-left: 20px;
+    }
+
+    .content-title.no1::after {
+        font-size: 1rem;
+        top: 42%;
+    }
+
+    .content-title.no2::after {
+        font-size: 1rem;
+        top: 42%;
+    }
+
+    .content-title.no3::after {
+        font-size: 1rem;
+        top: 42%;
+    }
+
+    .content-title.last::after {
+        font-size: 1rem;
+        top: 42%;
+    }
+
+    .content video {
+        width: 100%;
+        height: 20%;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .footerbg {
+        height: 26vh;
+    }
+
+    .thankyou {
+        height: 30%;
+        transform: translate(48%, 70%);
+    }
+
+    .footertext p {
+        font-size: .4rem;
+    }
+
+    .footertext {
+        transform: translate(-5%, 180%);
+    }
+
+    .content-title {
+        height: 1px;
+    }
+
+    .headerbg nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 10px;
+        transform: translateY(20%);
+    }
+
+    .headerbg nav ul li {
+        margin: 0 5px;
+    }
+
+    .headerbg nav ul a {
+        width: 25px;
+        height: 25px;
+    }
+
+    .content {
+        height: 53vh;
+    }
+
+    .contentimg p {
+        font-size: 1rem;
+        margin-top: -10px;
+    }
+}
+
+@media screen and (max-width : 375px) {
+    .line {
+        height: 40%;
+        transform: translateY(58%);
+    }
+
+    .headerbg {
+        height: 22vh;
+    }
+
+    h1 {
+        top: 9.7%;
+    }
+
+    .footerbg {
+        height: 23vh;
+    }
+
+    .copyright {
+        height: 20px;
+    }
+
+    .copyright p {
+        line-height: 22px;
+        font-size: .2rem;
+    }
+
+    .headerbg nav ul {
+        transform: translateY(32%);
+    }
+}
+@media screen and (max-width : 340px) {
+    .footerbg {
+        height: 20vh;
+        
+    }
+}
+@media screen and (max-width : 320px) {
+    .headerbg {
+        height: 18vh;
+    }
+    .line {
+        height: 45%;
+        transform: translateY(43%);
+    }
+    @keyframes boat {
+        0% {
+            left: 50%;
+            top: 1%;
+        }
+
+        49% {
+            transform: rotateY(0deg);
+        }
+
+        50% {
+            left: 75%;
+            top: 1%;
+            transform: rotateY(180deg);
+        }
+
+        99% {
+            transform: rotateY(180deg);
+        }
+
+        100% {
+            left: 50%;
+            top: 1%;
+        }
+
+    }
+    h1 {
+        width: 40%;
+        top: 8%;
+    }
+    .bigname {
+        top: -20%;
+    }
+
+    .profile {
+        margin-top: -300px;
+    }
+    .profile-text {
+        margin-top: -180px;
+    }
+    span {
+        font-size: .7rem;
+    }
+    .profile-text p {
+        height: 30px;
+    }
+    .skills {
+        height: 30px;
+    }
+    .use-skills {
+        height: 50px;
+        margin-top: 10px;
+    }
+    .resume-grid {
+        height: 60vh;
+    }
+    .contents {
+        padding: 20px;
+    }
+    .contents ul {
+        margin-top: -100px;
+    }
+    .content-title.no1::after {
+        font-size: .6rem;
+        top: 42%;
+    }
+
+    .content-title.no2::after {
+        font-size: .6rem;
+        top: 42%;
+    }
+
+    .content-title.no3::after {
+        font-size: .6rem;
+        top: 42%;
+    }
+
+    .content-title.last::after {
+        font-size: .6rem;
+        top: 42%;
+    }
+    .content-title {
+        height: -200px;
+    }
+    .content-title.no1 {
+        padding: 25px;
+    }
+    .content-title.no2 {
+        padding: 25px;
+    }
+    .content-title.no3 {
+        padding: 25px;
+    }
+    .content-title.last {
+        padding: 25px;
+    }
+    .content-title img {
+        width: 15%;
+    }
+    .footerbg {
+        height: 20vh;
+    }
+    .headerbg nav ul a {
+        width: 15px;
+        height: 15px;
+        border-radius: 5px;
+    }
+    .copyright {
+        height: 15px;
+    }
+    .copyright p  {
+        line-height: 15px;
+        font-size: .2rem;
+    }
+    .footertext p {
+        font-size: .3rem;
+    }
+    .footertext {
+        transform: translate(-5%, 250%);
+    }
+    .content{
+        margin: 0 30px;
+    }
+    .content video {
+        height: 25%;
+    }
+    .bg-circle {
+        top: -25%;
+    }
+}
+@media screen and (max-width : 1300px) {
+        .profile-text {
+            width: 500px;
+        }
+}
+@media screen and (max-width : 1184px) {
+        .profile-text {
+            width: 400px;
+            z-index: 9;
+            height: 400px;
+        }
+}
