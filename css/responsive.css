@@ -535,12 +535,12 @@
     }
 
     .profile {
-        margin: -60% auto;
+        margin: -40% auto;
         margin-bottom: 0;
     }
 
     .profile-text {
-        margin-top: -50%;
+        margin-top: -30%;
         text-align: center;
         width: 10px;
      
@@ -704,6 +704,12 @@
         font-size: 1rem;
         margin-top: -10px;
     }
+    .skillwrap {
+        margin-top: -130px;
+    }
+    .skills {
+        margin-top: -50px;
+    }
 }
 
 @media screen and (max-width : 375px) {
@@ -736,6 +742,18 @@
     .headerbg nav ul {
         transform: translateY(32%);
     }
+    .profilewrap {
+        width: 100%px;
+        overflow-x: hidden;
+        
+    }
+    .profilewrap .profile-text {
+        width: 100%;
+    }
+    .skillwrap {
+        margin-top: -130px;
+    }
+    
 }
 @media screen and (max-width : 340px) {
     .footerbg {
@@ -784,12 +802,12 @@
     .bigname {
         top: -20%;
     }
-
-    .profile {
-        margin-top: -300px;
+    .profilewrap {
+        margin-top: -170px;
     }
+
     .profile-text {
-        margin-top: -180px;
+        margin-top: -150px;
     }
     span {
         font-size: .7rem;
@@ -802,7 +820,7 @@
     }
     .use-skills {
         height: 50px;
-        margin-top: 10px;
+
     }
     .resume-grid {
         height: 60vh;
@@ -880,6 +898,9 @@
     .bg-circle {
         top: -25%;
     }
+   .skills {
+    margin-top: 0;
+   }
 }
 @media screen and (max-width : 1300px) {
         .profile-text {

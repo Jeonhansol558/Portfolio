@@ -246,7 +246,7 @@ main {
 
 
 .profilewrap {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -281,9 +281,6 @@ main {
     margin-left: 1.5rem;
     z-index: 9;
     letter-spacing: .2rem;
-
-
-
 }
 
 .info {
@@ -591,6 +588,4 @@ footer {
   transition: opacity .3s ease;
 }
 
-.arrow, .nameunderline, .profile, .arrow2, .profile-text, .arrow3, .skills, .content-circle {
-    overflow: hidden;
-}
+
